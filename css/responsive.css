@@ -1,0 +1,88 @@
+@media screen and (max-width: 721px){
+	.cover{
+		height: auto !important;
+	}
+	.masthead{
+		height: auto !important;
+	}
+	.masthead .logo{
+		float: none !important;
+		margin: 5px auto !important;
+		display: table !important;
+		
+	}
+	.wrapper, .container , .blog-wrapper{
+		width: 100% !important;
+	}
+	.landing-services{
+		height: auto !important; 
+	}
+	.services ul li{
+		width: 50% !important;
+		margin: 0 !important;
+		padding: 15px !important;
+	}
+    
+    .views p{
+    	padding: 30px 0 0 !important;
+    	font-size: 25px !important;
+    }
+    .landing-list .grid figure{
+    	width: 45% !important;
+    	height: auto !important;
+    	margin: 15px !important;
+    }
+    .landing-blog .content{
+    	padding: 10px;
+    }
+    .landing-list .grid img{
+    	width: 100% !important;
+    }
+    .landing-contact .map, .landing-contact .contact-form {
+    	width: 100% !important;
+    	float: none !important;
+    	padding: 10px;
+    }
+}
+@media screen and (max-width: 480px){
+	.landing-nav{
+		display: none !important;
+	}
+    .responsive-nav .nav-bar{
+    	display: block;
+    }
+	.services ul li{
+		width: 100% !important;
+	}
+	.title{
+		font-size: 30px !important;
+	}
+	.landing-about .about-text, .landing-about .thumb{
+		width: 100% !important;
+		float: none !important;
+		padding-bottom: 0 !important;
+	}
+	.landing-about .thumb{
+		margin-top: 0 !important;
+	}
+	.landing-about .thumb img{
+		float: none !important;
+		display: block !important;
+		margin: 0 auto !important;
+	}
+	.views p{
+		font-size: 20px !important;
+		line-height: 45px !important;
+	}
+	.grid{
+		padding: 10px !important;
+	}
+	.landing-blog .content .post .more{
+		margin: 0 10px 10px 10px;
+	}
+
+	.landing-list .grid figure{
+		width: 100% !important;
+		margin: 0 0 10px !important;
+	}
+}
